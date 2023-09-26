@@ -38,13 +38,14 @@ function isItShort(shortSize){
         return "That's a small string!"
       }
     }
-    
+  }
+  
 function instructorHeight(instructor){
-  if(instructor.length === 'Kyle'){
-    return '70'
-  }else if(instructor.length === 'Jason'){
-    return '73'
-  }else if(instructor.length !== 'Kyle' && instructor.length !== 'Jason'){
+  if(instructor === 'Kyle'){
+    return 70
+  }else if(instructor === 'Jason'){
+    return 73
+  }else if(instructor !== 'Kyle' && instructor !== 'Jason'){
     return "I don't know that instructor!"
   }
 }
